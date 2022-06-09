@@ -11,5 +11,3 @@ async def start(_, m: Message):
     await m.reply(
         f'Hola {m.from_user.mention(style="md")}, Envíame un archivo para obtener un enlace de descarga directa.'
     )
-    
-app.run()
